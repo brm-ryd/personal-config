@@ -205,3 +205,8 @@ let g:go_version_warning = 0
 
 " set true color neovim
 set termguicolors
+
+" clipboard copy paste
+set clipboard+=unnamedplus
+set paste
+set go+=a
